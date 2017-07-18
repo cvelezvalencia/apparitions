@@ -1,29 +1,27 @@
 html { 
    width:100%; 
    height:100%;
-   background-color: black;
+   background-color: white;
  }
 
-
+body {padding-top: 1%}
 
 p{
  	font-family:'Maria Pro',Helvetica,Arial,sans-serif;
  	font-style: lighter;
 	font-size: 19px;
-	text-decoration: lighter;
-	letter-spacing: 1px;
 	text-align: justify;
 	padding: 2% 3% 2% 3%;
 	color: black;
 	letter-spacing: 2.5px;
-	background-color: white;
+
 	
 
 }
 div.placa {
 	display: block;
     margin: auto;
-    width: 48%;
+    width: 70%;
 }
 
 
@@ -31,42 +29,40 @@ div.placa {
  	font-family: 'Maria Pro',Helvetica,Arial,sans-serif;
  	font-style: lighter;
 	font-size: 20px;
-	padding-top: 1%;
-	text-decoration: lighter;
 	letter-spacing: 1px;
 	text-align: center;
-	font-color: black;
 }
 
 img {
     display: block;
     margin: auto;
-    padding-top: 3%;
-    width: 48%;
+    width: 55%;
     z-index: -1;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 	
 
 a:link {
-	color: white;
+	color: black;
 	font-family: 'Maria Pro',Helvetica,Arial,sans-serif;
 	font-style: lighter;
 	text-decoration: none;
 	letter-spacing: 7px;
-	margin-top: 1%;
 	margin-bottom: 2%;
 	padding-bottom: 2%;
 
 }
 
 a:visited {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 a:hover {
 	color: black;
-	text-decoration: none;
+	text-decoration: bolder;
 }
 
 

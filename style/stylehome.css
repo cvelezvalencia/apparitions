@@ -42,23 +42,23 @@ div.title {
 
 
 div.images{
-	display: inline;
+	display: inline block;
 	padding-left: 12%;
 	padding-bottom: 5%;
+	width: 100%;
 }
 
 div.images2{
-	display: inline;
+	display: inline block;
 	padding-left: 12%;
 	padding-bottom: 5%;
+	width: 100%
 }
 
 .foto{
 	display: inline;
 	margin: 3% 3% 3% 3%;
 	opacity: .01;
-	width: 20%;
-	height: 10%;
 	}
 
 .foto:hover{
