@@ -3,12 +3,21 @@
   padding: 0;
 }
 
+html { 
+   width:100%; 
+   height:100%;
+}
+
+body {
+  height:100%;
+  width: 100%;}
+
 
 .fade {
   opacity: .1;
-   transition: opacity 2s ease-in;
-   -moz-transition: opacity 2s ease-in;
-   -webkit-transition: opacity 2s ease-in;
+   transition: opacity 1s ease-in;
+   -moz-transition: opacity 1s ease-in;
+   -webkit-transition: opacity 1s ease-in;
    z-index: 1;
    height: 100%;
    width: 100%;
@@ -18,18 +27,16 @@
       opacity: 1;
 }
 
-.container {
-  height: 100%;
-  width: 100%;
-}
 
 .text {
 display: block;
+align-items: center;
 }
 
 div.text {
-  position: absolute;
-  margin-left:6%;
+  position: absolute; 
+  margin-left:16%;
+  margin-right:14%;
   top:7%;
   z-index: -1;
 }
